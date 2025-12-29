@@ -4,3 +4,9 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+clap = { version = "4.0", features = ["derive"] }  # CLI parsing
+tokio = { version = "1.0", features = ["full"] }   # Async runtime
+serde = { version = "1.0", features = ["derive"] } # JSON serialization
+serde_json = "1.0"                                 # JSON file handling
+chrono = { version = "0.4" , features = ["serde"]} # Date/time handling
+crossterm = "0.27"                                 # Terminal UI (optional)

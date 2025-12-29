@@ -1,0 +1,13 @@
+{
+  "id": 1,
+  "work_duration": 25,
+  "short_break": 5,
+  "long_break": 15,
+  "total_sessions": 6,
+  "sessions_before_long_break": 4,
+  "current_session": 1,
+  "is_break": false,
+  "task_id": null,
+  "started_at": "2025-12-29T20:57:41.481511428Z",
+  "completed_sessions": []
+}
