@@ -70,7 +70,7 @@ impl TaskService {
                     task.completed_at = None;
                 }
             }
-            let updated_task = task.clone();
+            let __updated_task = task.clone();
             // multiple immutable borrows due to save_tasks needing &tasks later?
             // no, we mutate `tasks`, then save it.
             // slice needs to be taken from `tasks`.

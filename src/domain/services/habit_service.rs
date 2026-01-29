@@ -1,6 +1,6 @@
 use crate::domain::models::Habit;
 use crate::storage::json_store::JsonStorage;
-use chrono::{DateTime, Local};
+use chrono::Local;
 
 pub struct HabitService {
     storage: JsonStorage,

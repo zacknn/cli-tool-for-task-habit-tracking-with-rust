@@ -1,5 +1,5 @@
 use crate::domain::models::{Habit, PomodoroSession, Task};
-use serde::{Deserialize, Serialize, de::DeserializeOwned};
+use serde::{Serialize, de::DeserializeOwned};
 use std::fs;
 use std::path::Path;
 
